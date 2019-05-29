@@ -228,4 +228,32 @@ hr {
 
 .sectionBox p {
 	padding-bottom: 70px;
+	font-size: 18px;
 }
+
+#servFooter {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#servText {
+	width: 50%;
+}
+
+#servFooter img {
+	width: 40%;
+}
+
+#servFooter ul {
+	padding: 20px;
+}
+
+li {
+	padding: 5px;
+}
+
+#footerCopy {
+	margin: 50px auto 10px auto;
+}
+
