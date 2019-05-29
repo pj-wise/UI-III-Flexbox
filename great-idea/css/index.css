@@ -81,7 +81,8 @@ h1, h2, h3, h4, h5 {
 
 nav {
 	position: fixed;
-	padding: 20px 0px;
+	padding-bottom: 20px;
+	padding-right:20px;
 	background-color: rgba(255,255,255,0.9);
 }
 
@@ -164,4 +165,28 @@ footer a {
 #copyright {
 	margin-top: 10px;
 	text-align: center;
+}
+
+#serviceNav nav {
+	position: fixed;
+	padding-bottom: 20px;
+	padding-right:20px;
+	background-color: rgba(255,255,255,0.9);
+}
+
+#serviceNav a {
+	margin-left:90px;
+	color:lightslategray;
+	text-decoration: none;
+	padding-left: -80px;
+}
+
+#serviceNav .logo {
+	margin-left: 120px;
+}
+
+#servicesTopBanner {
+	width: 100%;
+	margin-top: -60px;
+	margin-bottom: 20px;
 }
